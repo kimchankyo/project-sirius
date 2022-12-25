@@ -74,7 +74,7 @@ bool is_drive(const mntent *ent) {
   return false;
 }
 
-void find_drives_fs() {
+void find_mounted_drives() {
   struct mntent ent;
   FILE *mountFile;
   char buf[256];
@@ -106,7 +106,7 @@ int main() {
   // cout << total / pow(1024, 3) << " GB found." << endl;
   
   // step 2
-  find_drives_fs();
+  find_mounted_drives();
 
   auto stop = high_resolution_clock::now();
   auto duration = duration_cast<microseconds>(stop - start);
