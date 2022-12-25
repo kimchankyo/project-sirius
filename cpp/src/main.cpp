@@ -7,8 +7,6 @@ Linux Distributions Only
 #include <stack>
 #include <math.h>
 #include <mntent.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include <cstring>
 
 #include <chrono>
