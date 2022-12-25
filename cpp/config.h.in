@@ -1,0 +1,2 @@
+#define version_major @project_sirius_VERSION_MAJOR@
+#define version_minor @project_sirius_VERSION_MINOR@
